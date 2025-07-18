@@ -1,0 +1,81 @@
+:root {
+    /* padding */
+    --p-100px: 100px;
+    --p-200px: 200px;
+
+    /* bg-colour */
+    --bg-colour-regular: #f7f7f7;
+    --bg-colour-primary: #f7ecd6;
+    
+    /* front-colour */
+    --primady-colour: orange;
+    --regular-colour: black;
+    --light-colour: gray;
+    --white-colour: white;
+
+    /* font weight */
+    --font-weight-700: 700;
+    --font-weight-300: 300;
+
+
+    /* boader-radious */
+    --boader-radious-50px: 50px;
+    --boader-radious-100px: 100px;
+
+    /* font-size */
+    --font-size-12px: 12px;
+    --font-size-14px: 14px;
+    --font-size-16px: 16px;
+    --font-size-20px: 20px;
+    --font-size-50px: 50px;
+
+}
+
+.btn {
+    background-color: var(--white-colour);
+    padding: var(--p-100px);
+    border-radius: var(--boader-radious-50px);
+    font-size: var(--font-size-16px);
+
+}
+img{ 
+    width: 200px;
+    height: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80vw;
+    margin: auto;
+    padding: 50px;
+}
+
+.flex-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-coloum {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.font-weight {
+    font-weight: var(--p-100px);
+}
+
+body {
+    background-color: var(--colour);
+}
+
+
+header{
+    background-color: var(--bg-colour-primary);
+}
