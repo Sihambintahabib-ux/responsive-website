@@ -1,27 +1,28 @@
-headind
+# heading
     nav 
     brand
- main 
+# main 
     quick-feature
     feature list
     facts
-footer
+# footer
     sponser-detail
     copy-right-text 
-utility class 
-    flex-row
-    flex-coloum
-    margin or padding bottom
-    ul 
+
+# utility class 
+# flex-row
+# flex-coloum
+# margin or padding bottom
+# ul 
         li 
         a
-    facts-card/box
+   # facts-card/box
     btn
-    color: 
+   # color: 
         clr-primary
         clr-regular
         clr-light
-    font-style
-    font-weight
-    size
+ # font-style
+  # font-weight
+   #  size
     
